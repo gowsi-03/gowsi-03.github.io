@@ -1,1 +1,1 @@
-My Pstatusersonal Portfolia Page.
+My Personal Portfolia Page.
