@@ -26,6 +26,10 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
   <!--Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -60,8 +64,9 @@
       <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
       <div class="social-links">
         <a href="https://github.com/gowsi-03" class="github"><i class="bx bxl-github"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="https://www.linkedin.com/in/gowsigan-pushpanathan-647925218/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="skype:live:gowsiganp_1?call" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="https://www.linkedin.com/in/gowsigan-pushpanathan-647925218/" class="linkedin"><i
+            class="bx bxl-linkedin"></i></a>
       </div>
     </div>
   </section><!-- End Hero -->
@@ -91,7 +96,8 @@
               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>3 Jan 3001</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Github:</strong> <a href="https://gowsi-03.github.io"><span>https://gowsi-03.github.io</span></a></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Github:</strong> <a
+                      href="https://gowsi-03.github.io"><span>https://gowsi-03.github.io</span></a></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+94 77 112 5274</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Jaffna, Sri Lanka</span></li>
                 </ul>
@@ -107,7 +113,9 @@
               </div>
             </div>
             <p>
-              I am a freelance UI/UX designer and web developer from Sri Lanka. Along with that I am currently reading a full stack development at UKI Coding School. As a Self-learner I tend to seek new tecknologies while improving my skills.
+              I am a freelance UI/UX designer and web developer from Sri Lanka. Along with that I am currently reading a
+              full stack development at UKI Coding School. As a Self-learner I tend to seek new tecknologies while
+              improving my skills.
             </p>
           </div>
         </div>
@@ -270,178 +278,116 @@
     </section>
     <!-- End Resume Section -->
 
-    <!-- Portfolio Section --> 
-    <!-- <section id="portfolio" class="portfolio section-bg">
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+          <h2>Projects</h2>
+          <p>What I Done</p>
+          <p>These are a few projects I personally worked on. I mainly worked Froentend
+            development. <br>In these project i mainly used HTML, JS, CSS to design Froentend</p>
         </div>
 
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
             </ul>
           </div>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bx bx-link"></i></a>
+        <div class="row portfoli-container" data-aos="fade-up" data-aos-delay="200">
+          <div class="wrapper">
+            <div class="carousel owl-carousel">
+              <div class="portfolio-wrap">
+                <img src="assets/img/todo.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Todo-App</h4>
+                  <p>Html, Js, Css</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/todo.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                      title="Web 3"><i class="bx bx-plus"></i></a>
+                    <a href="https://gowsi-03.github.io/Todo-App---Vanila-js/" class="portfolio-details-lightbox"
+                      data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bx bx-link"></i></a>
+
+              <div class="portfolio-wrap">
+                <img src="assets/img/search.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Filterable Gallery</h4>
+                  <p>Html, Js, Css</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/search.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                      title="Web 3"><i class="bx bx-plus"></i></a>
+                    <a href="https://gowsi-03.github.io/filterable-image-gallery/" class="portfolio-details-lightbox"
+                      data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bx bx-link"></i></a>
+              <div class="portfolio-wrap">
+                <img src="assets/img/form.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Form Validation</h4>
+                  <p>Html, Js, Css</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/form.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                      title="Web 3"><i class="bx bx-plus"></i></a>
+                    <a href="https://gowsi-03.github.io/Form-Validation---Vanila-js/" class="portfolio-details-lightbox"
+                      data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bx bx-link"></i></a>
+              <div class="card card-4">D</div>
+
+              <div class="portfolio-wrap">
+                <img src="assets/img/count.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Form Countdown Time</h4>
+                  <p>Html, Js, Css</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/count.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                      title="Web 3"><i class="bx bx-plus"></i></a>
+                    <a href="https://gowsi-03.github.io/Countdown-Newyear/" class="portfolio-details-lightbox"
+                      data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  </div>
                 </div>
               </div>
+
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
-
       </div>
-    </section> -->
+    </section>
+
+    <script>
+      $(".carousel").owlCarousel({
+        margin: 10,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverpause: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          600: {
+            items: 2,
+            nav: false
+          },
+          1000: {
+            items: 3,
+            nav: false
+          }
+        }
+      });
+    </script>
     <!-- End Portfolio Section -->
 
     <!-- Services Section -->
